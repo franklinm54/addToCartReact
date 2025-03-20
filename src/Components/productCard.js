@@ -20,7 +20,7 @@ const ProductCard = (props) => {
         </Link>
         <h3 className='text-2xl py-3 text-center font-medium'>{name}</h3>
         <div className='flex justify-between items-center'>
-          <p className='text-2xl font-medium'>{price}</p>
+          <p className='text-2xl font-medium'>${price}</p>
         <button className='bg-gray-300 p-2 rounded-md text-sm hover:bg-gray-400 flex gap-2'>
           <img src={iconCart} alt="iconCart" className="w-5" />
           Add To Cart
