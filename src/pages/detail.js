@@ -46,7 +46,7 @@ const Detail = () => {
               <span className='bg-gray-200 h-full w-10 font-bold text-xl rounded-xl justify-center items-center items-center'>{quantity}</span>
               <button className='bg-gray-100 h-full w-10 font-bold text-xl rounded-xl justify-center items-center items-center' onClick={handlePlusQuantity}>+</button>
             </div>
-            <button className='bg-slate-900 text-white px-7 py-3 rounded-xl shadow-2xl'>
+            <button className='bg-slate-900 text-white px-7 py-3 rounded-xl shadow-2xl' onClick={handleAddToCart}>
               Add to cart
             </button>
           </div>
